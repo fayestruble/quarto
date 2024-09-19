@@ -1,0 +1,9 @@
+project:
+  type: website  # or blog if you're building a blog
+
+# Optional: Specify output format
+output:
+  html:
+    embed-resources: true  # Embed resources for easier deployment
+
+# Optional: Include any additional configuration settings for navigation, theme, etc.
