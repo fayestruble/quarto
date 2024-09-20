@@ -11,21 +11,23 @@ jobs:
 
     steps:
       - name: Checkout the code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # Latest version for Node.js 20 compatibility
 
       - name: Set up Node.js (use Node.js 20)
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4  # Upgrade to v4 for Node.js 20 support
         with:
           node-version: '20'
 
       - name: Install Quarto
         run: |
+          sudo apt-get update  # Ensure packages are up to date
           sudo apt-get install gdebi-core
           wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.3.340/quarto-1.3.340-linux-amd64.deb
           sudo gdebi --non-interactive quarto-1.3.340-linux-amd64.deb
 
       - name: Install Python Dependencies
         run: |
+          python3 -m pip install --upgrade pip  # Ensure pip is up to date
           python3 -m pip install jupyter nbformat
 
       - name: Render the Quarto site
