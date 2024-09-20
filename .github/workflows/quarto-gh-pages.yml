@@ -28,7 +28,7 @@ jobs:
       - name: Install Python Dependencies
         run: |
           python3 -m pip install --upgrade pip  # Ensure pip is up to date
-          python3 -m pip install jupyter nbformat
+          python3 -m pip install jupyter numpy nbformat
 
       - name: Render the Quarto site
         run: quarto render
