@@ -3,8 +3,8 @@ title: "My Streamlit App"
 format: html
 ---
 
-## My Streamlit App
-
-LETS GO
-
-st.write("Check out my [Streamlit app](https://ncga24.streamlit.app)")
+<html>
+  <body>
+    <p>Check out my <a href="https://ncga24.streamlit.app" target="_blank">Streamlit app</a>!</p>
+  </body>
+</html>
