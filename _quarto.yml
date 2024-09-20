@@ -1,5 +1,6 @@
 project:
   type: website  # or blog if you're building a blog
+  output-dir: docs
 
 website:
   title: "Faye Struble's Portfolio"
@@ -17,7 +18,7 @@ format:
     toc: true
 
 # Optional: Specify output format
-output:
+output: 
   html:
     embed-resources: true  # Embed resources for easier deployment
 
