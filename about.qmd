@@ -5,3 +5,5 @@ format:
     code-fold: true
 jupyter: python3
 ---
+
+Hello! My name is Faye Struble and I am currently a Data Science Intern in IPA at Red Hat. 
