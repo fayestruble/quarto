@@ -4,14 +4,14 @@
     "href": "projects.html",
     "title": "My Streamlit App",
     "section": "",
-    "text": "LETS GO"
+    "text": "LETS GO\nst.write(“Check out my Streamlit app”)"
   },
   {
     "objectID": "projects.html#my-streamlit-app",
     "href": "projects.html#my-streamlit-app",
     "title": "My Streamlit App",
     "section": "",
-    "text": "LETS GO"
+    "text": "LETS GO\nst.write(“Check out my Streamlit app”)"
   },
   {
     "objectID": "about.html",
