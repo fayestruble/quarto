@@ -1,5 +1,7 @@
+---
 title: "About Me"
 format:
   html:
-    code-fold: false
+    code-fold: true
 jupyter: python3
+---

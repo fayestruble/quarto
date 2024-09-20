@@ -2,12 +2,13 @@ project:
   type: website  # or blog if you're building a blog
 
 website:
-  title: "today"
+  title: "Faye Struble's Portfolio"
   navbar:
     left:
       - href: hello.qmd
         text: Home
       - about.qmd
+      - projects.qmd
 
 format:
   html:
