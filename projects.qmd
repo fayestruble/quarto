@@ -1,5 +1,10 @@
 ---
-title: "Streamlit App Embedded in Quarto"
+title: "My Streamlit App"
+format: html
 ---
 
-<iframe src="https://ncga24.streamlit.app/" width="100%" height="600"></iframe>
+## My Streamlit App
+
+You can interact with the Streamlit app below:
+
+<iframe src="https://ncga24.streamlit.app" width="100%" height="800px" frameborder="0"></iframe>
